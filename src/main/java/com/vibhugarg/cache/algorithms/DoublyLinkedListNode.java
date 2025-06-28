@@ -31,4 +31,8 @@ public class DoublyLinkedListNode<E> {
   public void setNext(DoublyLinkedListNode<E> next) {
     this.next = next;
   }
+
+  public E getElement() {
+    return this.element;
+  }
 }
